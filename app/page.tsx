@@ -5,6 +5,7 @@ export default function Home() {
     return (
         <main className={styles.main}>
             <h2>hello git </h2>
+            <h3>Hii</h3>
         </main>
     );
 }
