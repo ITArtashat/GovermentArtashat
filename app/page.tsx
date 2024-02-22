@@ -13,7 +13,6 @@ export default function Home() {
                 obcaecati in assumenda dolorum, debitis dicta id odio atque porro a totam distinctio
                 officiis sed sequi magnam provident nam?
             </p>
-            <h3>Hii</h3>
         </main>
     );
 }
