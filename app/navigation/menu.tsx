@@ -18,7 +18,7 @@ const Menu: FC = () => {
         ԸՆԴՈՒՆԵԼՈՒԹՅՈՒՆ
       </Link>
       <Link className={classes["nav_link"]} href={"/"}>
-        ՍՈՑԻԱԼԱԿԱՆ ՎՈԼՈՐՏ
+        ՍՈՑԻԱԼԱԿԱՆ ՈԼՈՐՏ
       </Link>
       <Link className={classes["nav_link"]} href={"/"}>
         ԲԱՐԵԿԱՐԳՈՒՄ ԵՎ ԿՈՄՈՒՆԱԼ ՍՊԱՍԱՐԿՈՒՄ

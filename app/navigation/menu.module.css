@@ -4,8 +4,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  position: fixed;
-  border-bottom: 0.5px solid black;
+  position: relative;
   font-family: Georgia, serif;
 }
 

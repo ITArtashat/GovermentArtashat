@@ -1,0 +1,15 @@
+.container {
+  margin-top: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.next_image {
+  width: 90%;
+  height: 600px;
+}
+
+.days_container{
+    width: 100%;
+    display: flex;
+}
