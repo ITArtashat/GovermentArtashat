@@ -14,6 +14,7 @@ export default function Home() {
                 officiis sed sequi magnam provident nam?
             </p>
             <h3>Hii</h3>
+            <a href="">about</a>
         </main>
     );
 }
