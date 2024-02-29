@@ -4,8 +4,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
+  position: fixed;
   font-family: Georgia, serif;
+  background-color: aliceblue;
+  overflow: hidden;
+  transition: 0.4s;
 }
 
 .nav_link {
@@ -15,7 +18,9 @@
   color: black;
 }
 .nav_link_first {
-  font-size: 20px;
+  display: flex;
+  align-items: center;
+  font-size: 25px;
   text-decoration: none;
   margin: 0px 20px;
   font-weight: 800;
