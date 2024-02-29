@@ -6,6 +6,9 @@
   align-items: center;
   position: fixed;
   font-family: Georgia, serif;
+  background-color: aliceblue;
+  overflow: hidden;
+  transition: 0.4s;
 }
 
 .nav_link {
