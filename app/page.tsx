@@ -8,7 +8,7 @@ export default function Home() {
         <img
           src="/images/home-page-images/img1.jpg"
           alt="img"
-          className={styles["next_image"]}
+          className={styles["profile_image"]}
         />
       </div>
       <div className={styles["days_container"]}>
