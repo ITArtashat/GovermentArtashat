@@ -6,7 +6,7 @@ export default function Home() {
     <main className={styles.main}>
       <div className={styles["container"]}>
         <img
-          src="/images/img1.jpg"
+          src="/images/home-page-images/img1.jpg"
           alt="img"
           className={styles["next_image"]}
         />
