@@ -8,7 +8,6 @@
 
 .news-title-div {
   width: 90%;
-  border-left: 0.2px solid rgb(213, 209, 209);
   border-bottom: 0.2px solid rgb(213, 209, 209);
 }
 
@@ -24,12 +23,14 @@
 .news_container {
   width: 100%;
   display: flex;
-  margin: 20px 0px 0px 10px;
+  margin: 20px 0px 0px 0px;
   justify-content: center;
 }
 
 .newslist-container {
   width: 25%;
+  padding: 10px;
+  border-left: 0.2px solid rgb(213, 209, 209);
 }
 
 .a {
@@ -39,4 +40,10 @@
 
 .a:hover {
   text-decoration: underline;
+}
+
+.newslist_image {
+  width: 200px;
+  height: 200px;
+  object-fit: fill;
 }

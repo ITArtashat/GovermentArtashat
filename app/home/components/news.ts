@@ -1,10 +1,12 @@
 interface Props {
+  src: string;
   title: string;
   description: string;
 }
 
-export const news: Props[] = [
+export const news = [
   {
+    src: "/images/home-page-images/lastNewsimg1.jpg",
     title: "title",
     description: "description",
   },
@@ -13,6 +15,7 @@ export const news: Props[] = [
     description: "description",
   },
   {
+    src: "/images/home-page-images/lastNewsimg2.jpg",
     title: "title",
     description: "description",
   },

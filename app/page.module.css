@@ -7,6 +7,14 @@
   margin-top: 90px;
   width: 90%;
   height: 600px;
+  transition: 1s ease;
+}
+
+.profile_image:hover {
+  -webkit-transform: scale(1);
+  -ms-transform: scale(1);
+  transform: scale(1.07);
+  transition: 1s ease;
 }
 
 .days_container {

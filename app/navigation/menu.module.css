@@ -1,4 +1,5 @@
 .container {
+  max-width: 1600px;
   width: 100%;
   height: 80px;
   display: flex;
@@ -6,17 +7,19 @@
   align-items: center;
   position: fixed;
   font-family: Georgia, serif;
-  background-color: aliceblue;
-  overflow: hidden;
-  transition: 0.4s;
+  background-color: white;
 }
 
 .nav_link {
+  padding: 5px;
+  display: inline-block;
   text-decoration: none;
   margin: 0px 20px;
   font-weight: 800;
   color: black;
+  transition: 0.5s ease;
 }
+
 .nav_link_first {
   display: flex;
   align-items: center;
@@ -25,4 +28,23 @@
   margin: 0px 20px;
   font-weight: 800;
   color: black;
+  transition: 0.5s ease;
+}
+.nav_link_first:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: 1s ease;
+  box-shadow: 10px black;
+  color: #555;
+}
+
+.nav_link:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: 1s ease;
+  box-shadow: 10px black;
+  color: #555;
+  border-bottom: 1px solid #555;
 }
