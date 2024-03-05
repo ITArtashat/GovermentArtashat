@@ -11,9 +11,10 @@
 }
 
 .profile_image:hover {
+  cursor: pointer;
   -webkit-transform: scale(1);
   -ms-transform: scale(1);
-  transform: scale(1.07);
+  transform: scale(1.02);
   transition: 1s ease;
 }
 
