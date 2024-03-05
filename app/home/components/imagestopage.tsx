@@ -8,7 +8,9 @@ const ImagestoPage: FC = () => {
     return (
       <div key={i} className={classes["images-list_container"]}>
         <a href={el.href} className={classes["images_a"]}>
-          <img src={el.src} className={classes["page_images"]} />
+          <div className={classes["page-images_container"]}>
+            <img src={el.src} className={classes["page_images"]} />
+          </div>
           <h2 className={classes["title-images"]}>{el.title}</h2>
           <p>{el.description}</p>
         </a>
