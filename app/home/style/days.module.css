@@ -1,16 +1,16 @@
 .days_container {
-  width: 90%;
-  display: flex;
-  justify-content: center;
-  margin-top: 20px;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
 }
 
 .days_item {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 22%;
-  height: 70px;
-  align-items: center;
-  border-left: 0.1px solid gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 22%;
+    height: 70px;
+    align-items: center;
+    border-left: 0.1px solid gray;
 }
