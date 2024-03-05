@@ -1,0 +1,58 @@
+.name_container{
+    font-size: 1.5625rem;
+    line-height: 2.1875rem;
+    letter-spacing: .25rem;
+    padding-bottom: 0.875rem;
+    font-family: Aiglon Pro Wide,Arial,sans-serif;
+    font-weight: 750;
+    max-width: 49.6875rem;
+    margin: auto;
+    text-transform: uppercase;
+    text-align: center;
+    
+  
+   
+}
+
+.ul{
+    display: flex;
+   align-items: center;
+    
+    
+};
+
+.ally{
+    display: none;
+
+};
+.links_container{
+
+}
+
+.link_icon{
+    color: black;
+    border-radius: 50%;
+    font-size: 30px;
+    margin-left: 10px
+};
+
+
+.socisl_block{
+display: flex;
+align-items: center;
+justify-content: center;
+list-style: none;
+
+};
+
+.img_container{
+display: flex;
+justify-content: center;
+}
+
+.about_img{
+    border-radius: 2%;
+    object-fit: cover;
+    display: block;
+    
+};
