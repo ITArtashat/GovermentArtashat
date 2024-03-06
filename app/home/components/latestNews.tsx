@@ -4,7 +4,7 @@ import { news } from "./news";
 import Image from "next/image";
 
 const LatestNews: FC = () => {
-  const newsList = news.map(({ src, title, description }, index) => {
+  const newsList = news.map(({ title, description }, index) => {
     return (
       <div className={classes["newslist-container"]} key={index}>
         <a href="/" className={classes["a"]}>

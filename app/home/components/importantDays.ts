@@ -5,19 +5,21 @@ interface Props {
 
 export const importantDays: Props[] = [
   {
-    title: "24 February 2024",
-    description: "Salon de l'agriculture.",
+    title: "05 Մարտ 2024",
+    description:
+      "Միջոցառում՝ նվիրված սպարապետ Վազգեն Սարգսյանի ծննդյան 65-ամյակին",
   },
   {
-    title: "26 February 2024",
-    description: "Salon de l'agriculture.",
+    title: "04 Մարտ 2024",
+    description: "Հանդիպում՝ հաշմանդամություն ունեցող անաձանց հետ",
   },
   {
-    title: "24 February 2024",
-    description: "Salon de l'agriculture.",
+    title: "20 Փետրվար 2024",
+    description:
+      "Արտաշատի համայնքապետարանը ձեռք է բերել բազմաֆունկցիոնալ МАЗ մակնիշի մեքենա",
   },
   {
-    title: "24 February 2024",
-    description: "Salon de l'agriculture.",
+    title: "16 Փետրվար 2024",
+    description: "Քաղաքացիների ընդունելություն",
   },
 ];
