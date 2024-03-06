@@ -9,6 +9,7 @@
     margin: auto;
     text-transform: uppercase;
     text-align: center;
+    -webkit-text-size-adjust:100%;
     
   
    
@@ -56,6 +57,7 @@ justify-content: center;
     object-fit: cover;
     display: block;
     
+
 };
 
 .about_info{
@@ -66,5 +68,39 @@ justify-content: center;
   font-size: .8125rem;
   line-height: 1.25rem;
   letter-spacing: 0.5px;
+  margin: 10 20 10 20;
 
+}
+
+.p_classes{
+    box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    letter-spacing: 0;
+    font-weight: 500;
+    font-size: .8125rem;
+    line-height: 1.25rem;
+};
+
+.h4_classes{
+
+    font-weight: 700;
+}
+.messege_container{
+    box-sizing: border-box;
+    background-color: #000;
+    color: #fff;
+    height: 2.5rem;
+    border-radius: 50px;
+    padding: 0 1.25rem 0 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+
+};
+.messege_icon{
+    border-radius: 50%;
+    font-size: 20px;
+    
 }

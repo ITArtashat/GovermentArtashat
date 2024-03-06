@@ -4,6 +4,9 @@ import classes from "../style/about.module.scss"
 import Image from "next/image"
 import { GrLinkedin } from "react-icons/gr";
 import { FaFacebook } from "react-icons/fa";
+import { BsPencilSquare } from "react-icons/bs";
+
+
 
 
 
@@ -34,15 +37,27 @@ const BirthInfo: FC = () =>{
                     </ul>
                 </section>
                 <div className={classes["img_container"]}>
-    <Image src ="/about/image2.jpg" className={classes["about_img"]} alt="image2"  width={400} height={600} />
+    <Image src ="/about/image2.jpg" className={classes["about_img"]} alt="image2"  width={500} height={700} />
     
     </div>
+
+    <div>
+        <h3>
+        Նամակ քաղաքապետին
+        </h3>
+        <button className={classes["messege_container"]}>
+        <BsPencilSquare  className={classes["messege_icon"]}/>Ուղարկեք ձեր հաղորդագրությունը 
+            <a href="" target="_blank" title=" Ուղարկեք ինձ հաղորդագրություն"  > 
+            
+</a>
+        </button>
+    </div>
+
+
     <section className={classes["about_info"]}>
-                <h4> className={classes["h4_classes"]}Ծնունդ</h4>
+                <h4 className={classes["h4_classes"]}>Ծնունդ</h4>
                 <p className={classes["p_classes"]}>Ծնվել է 1986 թվականի դեկտեմբերի 21-ին, Արարատի մարզի Արտաշատ քաղաքում:
 2004-2006 թթ. ծառայել է ՀՀ Զինված ուժերում՝ որպես ջոկի հրամանատար:</p>
-
-
 
     <h4 className={classes["h4_classes"]}>ԿՐԹՈՒԹՅՈՒՆ</h4>
 <p className={classes["p_classes"]}>2003 թվականին ավարտել է Արտաշատ քաղաքի թիվ 3  միջնակարգ դպրոցը:
