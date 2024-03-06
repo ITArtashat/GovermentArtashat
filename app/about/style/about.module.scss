@@ -42,6 +42,7 @@ display: flex;
 align-items: center;
 justify-content: center;
 list-style: none;
+text-shadow: 0.0625rem 0.0625rem 0.0625rem rgba(0,0,0,.04);
 
 };
 
@@ -56,3 +57,11 @@ justify-content: center;
     display: block;
     
 };
+
+.about_info{
+  width: auto;
+  font-family: Aiglon Pro,Arial,sans-serif;
+  font-weight: 500;
+  text-shadow: 0.0625rem 0.0625rem 0.0625rem rgba(0,0,0,.04);
+
+}

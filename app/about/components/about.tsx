@@ -37,7 +37,7 @@ const BirthInfo: FC = () =>{
     <Image src ="/about/image2.jpg" className={classes["about_img"]} alt="image2"  width={400} height={600} />
     
     </div>
-    <section>
+    <section className={classes["about_info"]}>
                 <h4>Ծնունդ</h4>
                 <p>Ծնվել է 1986 թվականի դեկտեմբերի 21-ին, Արարատի մարզի Արտաշատ քաղաքում:
 2004-2006 թթ. ծառայել է ՀՀ Զինված ուժերում՝ որպես ջոկի հրամանատար:</p>
