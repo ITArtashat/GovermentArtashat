@@ -47,7 +47,7 @@ const BirthInfo: FC = () =>{
 
     <div className={classes["send_container"]}>
         <h4 >
-        Նամակ քաղաքապետին
+        Նամակ համայնքապետին
         </h4>
         <button className={classes["messege_container"]}>
         <BsPencilSquare  className={classes["messege_icon"]}/>Ուղարկեք ձեր հաղորդագրությունը 
