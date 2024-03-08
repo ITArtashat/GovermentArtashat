@@ -1,18 +1,25 @@
 .name_container{
-    font-size: 1.5625rem;
-    line-height: 2.1875rem;
-    letter-spacing: .25rem;
-    padding-bottom: 0.875rem;
     font-family: Aiglon Pro Wide,Arial,sans-serif;
+    font-size: 3.75rem;
     font-weight: 750;
+    line-height: 4.375rem;
+    letter-spacing: .375rem;
     max-width: 49.6875rem;
     margin: auto;
     text-transform: uppercase;
+    padding-bottom: 4.6875rem;
     text-align: center;
-    -webkit-text-size-adjust:100%;
     
   
    
+};
+
+.big_div{
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   
+
 }
 
 .ul{
@@ -27,6 +34,11 @@
 
 };
 .links_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    
 
 }
 
@@ -34,7 +46,8 @@
     color: black;
     border-radius: 50%;
     font-size: 30px;
-    margin-left: 10px
+    margin: 10px 20px 10px 20px;
+   
 };
 
 
@@ -56,35 +69,57 @@ justify-content: center;
     border-radius: 2%;
     object-fit: cover;
     display: block;
+   
     
 
 };
 
 .about_info{
-  width: auto;
-  font-family: Aiglon Pro,Arial,sans-serif;
-  font-weight: 500;
+  max-width: 700px;
+  font-family: Arial,sans-serif;
+  font-weight: 500;margin-left: auto;
+  margin-right: auto;
   text-shadow: 0.0625rem 0.0625rem 0.0625rem rgba(0,0,0,.04);
   font-size: .8125rem;
   line-height: 1.25rem;
   letter-spacing: 0.5px;
-  margin: 10 20 10 20;
-
+  margin: 0%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  
+ 
 }
 
 .p_classes{
     box-sizing: border-box;
     -webkit-font-smoothing: antialiased;
-    letter-spacing: 0;
+    letter-spacing: 0.5;
     font-weight: 500;
     font-size: .8125rem;
     line-height: 1.25rem;
+    
+    
 };
 
 .h4_classes{
-
+    margin-top: 20px;
     font-weight: 700;
+    letter-spacing: 0.5;
+    
 }
+
+
+.send_container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 80px;
+    margin-top: 20px;
+};
+
+
 .messege_container{
     box-sizing: border-box;
     background-color: #000;
@@ -104,3 +139,18 @@ justify-content: center;
     font-size: 20px;
     
 }
+
+.first_container{
+    width: 100%;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    text-shadow: 0.0625rem 0.0625rem 0.0625rem rgba(0,0,0,.04);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    }
+

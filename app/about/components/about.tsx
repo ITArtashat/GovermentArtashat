@@ -19,10 +19,13 @@ const BirthInfo: FC = () =>{
           
             
             <div  className={classes["big_div"]}>
+
                     
                 <h1 className={classes["name_container"]}>ԿԱՌԼԵՆ ՍԱՄՎԵԼԻ ՄԿՐՏՉՅԱՆ</h1>
-
+                <div className={classes["first_container"]}>
                 <section className={classes["links_container"]} >
+
+                    <h5>Հետևեք Կառլեն Մկրտչյանին</h5>
                     <ul className={classes["socisl_block"]} >
                         <li>
                         <a href="" target="_blank" title="follow me on Facebook" >
@@ -40,11 +43,12 @@ const BirthInfo: FC = () =>{
     <Image src ="/about/image2.jpg" className={classes["about_img"]} alt="image2"  width={500} height={700} />
     
     </div>
+    </div>
 
-    <div>
-        <h3>
+    <div className={classes["send_container"]}>
+        <h4 >
         Նամակ քաղաքապետին
-        </h3>
+        </h4>
         <button className={classes["messege_container"]}>
         <BsPencilSquare  className={classes["messege_icon"]}/>Ուղարկեք ձեր հաղորդագրությունը 
             <a href="" target="_blank" title=" Ուղարկեք ինձ հաղորդագրություն"  > 
@@ -61,7 +65,8 @@ const BirthInfo: FC = () =>{
 
     <h4 className={classes["h4_classes"]}>ԿՐԹՈՒԹՅՈՒՆ</h4>
 <p className={classes["p_classes"]}>2003 թվականին ավարտել է Արտաշատ քաղաքի թիվ 3  միջնակարգ դպրոցը:
-2004-2011 թթ. սովորել և ավարտել է Երևանի Խ. Աբովյանի անվան հայկական պետական մանկավարժական համալսարանի «Հոգեբանության և սոցիալական մանկավարժության»  ֆակուլտետը, ստացել է մանկավարժության  բակալավրի աստիճան: 2020 թվականից ընդունվել և սովորում է  Երևանի  Մ. Խորենացու անվան պետական համալսարանի  «Իրավաբանական»  ֆակուլտետում:</p>
+2004-2011 թթ. սովորել և ավարտել է Երևանի Խ. Աբովյա
+նի անվան հայկական պետական մանկավարժական համալսարանի «Հոգեբանության և սոցիալական մանկավարժության»  ֆակուլտետը, ստացել է մանկավարժության  բակալավրի աստիճան: 2020 թվականից ընդունվել և սովորում է  Երևանի  Մ. Խորենացու անվան պետական համալսարանի  «Իրավաբանական»  ֆակուլտետում:</p>
    <h4 className={classes["h4_classes"]}>ԱՇԽԱՏԱՆՔԱՅԻՆ ԳՈՐԾՈՒՆԵՈՒԹՅՈՒՆ</h4>
 <p className={classes["p_classes"]}>2008-2009  թթ. աշխատել է ՀՀ ԱՆ քրեկատարողական հաստատությունում՝ որպես ՔԿՀ ԱԱՀ 2-րդ կարգի մասնագետ:
 2009-2011 թթ.  աշխատել է «Սանարե ֆարմ» ՍՊԸ-ում:
