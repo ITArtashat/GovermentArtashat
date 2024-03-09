@@ -1,4 +1,5 @@
 import Days from "./home/components/days";
+import HomePageContact from "./home/components/homepageContact";
 import ImagestoPage from "./home/components/imagestopage";
 import LatestNews from "./home/components/latestNews";
 import styles from "./page.module.css";
@@ -18,6 +19,7 @@ export default function Home() {
             </div>
             <LatestNews />
             <ImagestoPage />
+            <HomePageContact />
         </main>
     );
 }
