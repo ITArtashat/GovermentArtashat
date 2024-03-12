@@ -15,6 +15,7 @@ const HomePageContact: FC = () => {
                         height={250}
                     />
                 </div>
+
                 <div className={classes["contact_container"]}>
                     <h1>Կապ մեզ հետ</h1>
                     <div className={classes["input_container"]}>
