@@ -42,21 +42,20 @@
   text-decoration: underline;
 }
 
-.news_image{
-  object-fit:cover ;
+.news_image {
+  object-fit: cover;
 }
 
-.title_p{
+.title_p {
   margin-top: 15px;
   color: rgb(74, 74, 74);
 }
-.description_p{
+.description_p {
   margin-top: 5px;
   font-weight: bold;
 }
 
-.title_p_2{
+.title_p_2 {
   margin-top: 25px;
   color: rgb(74, 74, 74);
 }
-
